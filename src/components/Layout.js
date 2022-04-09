@@ -58,8 +58,7 @@ export default function Layout({children}) {
            document.getElementById("mySidenav").style.width = "0";
          } */}
       </script>
-	  
-	  
+     
 	  <div class="banner_bg_main">
 	  	<div class="container">
             <div class="header_section_top">
@@ -196,7 +195,7 @@ export default function Layout({children}) {
 	  </Head>
 
       <main>
-		 {children}		 
+		 {children} 
 	  </main>
 
 
