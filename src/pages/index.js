@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
        <Layout>
-        <Product></Product>
+        
        </Layout>
     
     </div>
