@@ -1,13 +1,13 @@
 import Head from "next/head"
+import Layout from "../components/Layout"
+import Slider from "../components/Slider"
 
 export default function Home() {
   return (
 	<div>
-    <Head>
-      <title>Food Order</title>
-    </Head>
-    home page
-    <img src="/imgs/f.png"></img>
+      <Layout>
+       <Slider />
+      </Layout>
 	</div>
   )
 }

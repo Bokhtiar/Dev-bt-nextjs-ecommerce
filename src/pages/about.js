@@ -11,7 +11,7 @@ export default function about({data}) {
       <Layout>about us
       {
         data.map((dt, index)=>
-          <li>{dt.title}</li>
+          <li className='text-danger'>{dt.title}</li>
         )
       }
       </Layout>
