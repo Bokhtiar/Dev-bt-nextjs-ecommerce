@@ -61,7 +61,6 @@ export async function getServerSideProps({params}) {
 
     const category = await fetch(`https://fakestoreapi.com/products/category/${product.category}`)
     const catProducts = await category.json()
-    console.log(catProducts)
 
 
     return { 
