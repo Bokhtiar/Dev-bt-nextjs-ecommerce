@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Product = ({products}) => {
     return (
         <div>
@@ -13,16 +15,15 @@ const Product = ({products}) => {
                                     <h5 class="card-title">{product.title}</h5>
                                     <div className="form-inline text-center">
                                        <p className="text-center"> 
-                                            <a href="#" class="btn btn-primary">a</a>&nbsp;
-                                            <a href="#" class="btn btn-primary">a</a>&nbsp;
-                                            <a href="#" class="btn btn-primary">a</a>&nbsp;
+                                            <Link href={`/product/${product.id}`} class="btn btn-primary">eye</Link>&nbsp;
+                                            <a href="#" class="btn btn-primary">cart</a>&nbsp;
+                                            <a href="#" class="btn btn-primary">chioce</a>&nbsp;
                                         </p>
                                     </div>
                                 
                                 </div>
                             </div> 
                         </div>
-                        
                     )
                 }   
                 </div>
